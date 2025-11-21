@@ -1,12 +1,12 @@
 #robot.py
 import random
 
-def jugada_robot():
+def robot_janken():
     opcions = ["pedra", "paper", "tisora"]
     
     return random.choice(opcions)
 
 def missatge_sortida():
-    missatges = ["ets un noob", "traem un jugador millor que tu"]
+    missatges = ["Doneu-me un jugador millor"]
     return random.choice(missatges)
 

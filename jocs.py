@@ -45,7 +45,7 @@ def janken():
         print(f"\n===== Ronda {ronda_actual} =====")
         
         jugada_usuari = obtenir_jugada_usuari()
-        jugada_robot = robot.jugada_robot() 
+        jugada_robot = robot.robot_janken() 
 
         print(f"El robot: **{jugada_robot}**")
         
