@@ -25,14 +25,14 @@ def janken():
         mode = input("Tria mode de joc:\n1. Primer a 3 victòries\n2. Al millor de 5 rondes\nOpció: ")
         if mode == '1':
             victories_necessaries = 3
-            limit_rondes = float('inf') #
+            limit_rondes = float('inf') 
             break
         elif mode == '2':
             victories_necessaries = 3 
             limit_rondes = 5
             break
         else:
-            print("Opció no vàlida.")
+            print("Opció no vàlida")
 
     puntuacio_usuari = 0
     puntuacio_robot = 0
@@ -47,29 +47,29 @@ def janken():
         jugada_usuari = obtenir_jugada_usuari()
         jugada_robot = robot.jugada_robot() 
 
-        print(f"🤖 El robot treu: **{jugada_robot.upper()}**")
+        print(f"El robot: **{jugada_robot}**")
         
         guanyador = determinar_guanyador_ronda(jugada_usuari, jugada_robot)
 
         if guanyador == 'usuari':
-            print("🎉 Has guanyat la ronda!")
+            print(" Has guanyat la ronda.")
             puntuacio_usuari += 1
         elif guanyador == 'robot':
-            print("😔 El robot guanya la ronda.")
+            print(" El robot guanya la ronda.")
             puntuacio_robot += 1
         else:
-            print("🤝 Empat en aquesta ronda!")
+            print("Empat!")
         
-        print(f"Puntuació: Tu {puntuacio_usuari} - {puntuacio_robot} Robot")
-    print("\n=== RESULTAT FINAL DEL PARTIT ===")
+        print(f"Score: Tu {puntuacio_usuari} - {puntuacio_robot} Robot")
+    print("\n--- RESULTAT FINAL DEL PARTIT ---")
     if puntuacio_usuari > puntuacio_robot:
-        print("🏆 FELICITATS! Has guanyat el partit! 🥳")
+        print("FELICITATS! Has guanyat el partit! ")
     elif puntuacio_robot > puntuacio_usuari:
-        print(f"🕹️ Ha guanyat la màquina! {robot.missatge_sortida()} 🤖")
+        print(f" Ha guanyat la màquina! \n {robot.missatge_sortida()} ")
     else:
-        print("⚖️ El partit ha acabat en empat.")
+        print(" El partit ha acabat en empat.")
 
-def endevina():
+def nana():
     print("\n--- Endevinar el Número ---")
     nombre_adivinat = random.randint(1, 100) 
     intents = 0
@@ -81,19 +81,19 @@ def endevina():
             intents += 1
             entrada = input(f"Intent {intents}: Introdueix un número: ")
             if not entrada.isdigit():
-                print("❌ Si us plau, introdueix un nombre enter vàlid.")
+                print(" Si us plau, introdueix un nombre enter vàlid.")
                 intents -= 1 
                 continue
             nombre_usuari = int(entrada)
             if nombre_usuari < nombre_adivinat:
-                print("➡️ Massa baix. Prova amb un número més gran.")
+                print(" Massa baix. Prova amb un número més gran.")
             elif nombre_usuari > nombre_adivinat:
-                print("⬅️ Massa alt. Prova amb un número més petit.")
+                print(" Massa alt. Prova amb un número més petit.")
             else:
                 endevinat = True
         except Exception:
-            print("⚠️ Hi ha hagut un error en la teva entrada. Torna a intentar-ho. ⚠️")
+            print("Torna a intentar-ho. ")
             intents -= 1
     print("\n--- RESULTAT ---")
-    print(f"Has endevinat el número **{nombre_adivinat}**!")
-    print(f"Ho has aconseguit en **{intents} intents**.")
+    print(f"Has endevinat el número {nombre_adivinat}!")
+    print(f"Ho has aconseguit en {intents} intents.")
