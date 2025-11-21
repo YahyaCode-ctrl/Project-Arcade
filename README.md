@@ -1,4 +1,4 @@
-# 🕹️ Mini Arcade (Projecte Individual Python)
+# Mini Arcade de Yahya Elhadri (Projecte Individual Python)
 
 Aquest projecte implementa una petita màquina recreativa virtual utilitzant Python, estructurada en mòduls per separar la lògica del menú, els jocs i el competidor (robot).
 
@@ -19,7 +19,7 @@ El projecte es compon de tres fitxers principals:
 | `jocs.py` | Conté la lògica i les funcions completes dels jocs (`janken()` i `nana()`). |
 | `robot.py` | Conté la lògica del competidor de la màquina (la jugada aleatòria del robot). |
 
-## 📝 Com Jugar
+## Com Jugar
 
 1.  **Tria l'opció (1, 2, o S) i prem Enter.**
 2.  Si tries el Joc 1, hauràs de triar el mode de joc ("Primer a 3 victòries" o "Al millor de 5 rondes").
