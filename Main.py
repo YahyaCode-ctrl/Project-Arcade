@@ -2,37 +2,27 @@
 import jocs 
 
 def mostrar_menu():
-    print("\n" + "="*30)
+    print("=============================================")
     print("🕹️ BENVINGUT/DA AL MINI ARCADE de Yahya 🕹️")
-    print("="*30)
+    print("=============================================")
     print("1. Jugar a -Pedra✊, Paper🤚, Tisora✌️-")
     print("2. Jugar a -Endevinar el Número-")
     print("S. -Sortir🚪-")
-    print("-" * 30)
+    print("---------------------------------------------")
 
 def main():
     while True:
         mostrar_menu()
-        
-        
-        opcio = input("Introdueix la teva opció: ").upper()
-        
-        
+        opcio = input("Introdueix la teva opció: ").upper() 
         match opcio:
             case '1':
-                
                 jocs.janken()
-            
             case '2':
-                
-                jocs.endevina()
-            
-            case 'S':
-                
+                jocs.endevina()            
+            case 'S':                
                 print("\n👋 Gràcies per jugar al Mini Arcade!!👋")
                 break
             case 's':
-                
                 print("\n👋 Gràcies per jugar al Mini Arcade!!👋")
                 break 
             case _: 
