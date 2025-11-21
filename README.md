@@ -26,4 +26,4 @@ El projecte es compon de tres fitxers principals:
 1.  **Tria l'opció (1, 2, o S) i prem Enter.**
 2.  Si tries el Joc 1, hauràs de triar el mode de joc ("Primer a 3 victòries" o "Al millor de 5 rondes").
 3.  El programa tornarà al menú principal un cop finalitzat el joc.
-4.  Per sortir, introdueix **`S`** al menú.
+4.  Per sortir, introdueix **`S`** o **`s`** al menú.
