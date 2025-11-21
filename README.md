@@ -1,6 +1,7 @@
-# <img width="50" height="50" alt="foto arcade" src="https://github.com/user-attachments/assets/16340c2f-0a5c-4a5a-a570-7158272fec2a" />
- Mini Arcade (Projecte Individual Python) <img width="50" height="50" alt="foto arcade" src="https://github.com/user-attachments/assets/16340c2f-0a5c-4a5a-a570-7158272fec2a" />
 
+ <img width="750" height="400" alt="rsz_yahya_elhadri" src="https://github.com/user-attachments/assets/fde0428b-a158-4bd0-9e6d-dd75a8b3bc97" />
+
+## Introduccio: 
 Aquest projecte implementa una petita màquina recreativa virtual utilitzant Python, estructurada en mòduls per separar la lògica del menú, els jocs i el competidor (robot).
 
 ## Característiques:
