@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 # Mini Arcade de Yahya Elhadri (Projecte Individual Python)
+=======
+>>>>>>> 2de8962c437efb2585ae952a6b03c1e07bf30616
 
+ <img width="750" height="400" alt="rsz_yahya_elhadri" src="https://github.com/user-attachments/assets/fde0428b-a158-4bd0-9e6d-dd75a8b3bc97" />
+
+## Introduccio: 
 Aquest projecte implementa una petita màquina recreativa virtual utilitzant Python, estructurada en mòduls per separar la lògica del menú, els jocs i el competidor (robot).
 
 ## Característiques:
