@@ -20,12 +20,12 @@ def main():
             case '2':
                 jocs.endevina()            
             case 'S':                
-                print("\n👋 Gràcies per jugar al Mini Arcade!!👋")
+                print("\n👋 Gràcies per jugar al Mini Arcade de Yahya!!👋")
                 break
             case 's':
-                print("\n👋 Gràcies per jugar al Mini Arcade!!👋")
+                print("\n👋 Gràcies per jugar al Mini Arcade de Yahya!!👋")
                 break 
             case _: 
-                print("\n❌ Error: Opció no vàlida. Si us plau, tria 1, 2 o S.")
+                print("\n❌tria 1, 2 o S.❌")
 if __name__ == "__main__":
     main()
