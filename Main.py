@@ -18,11 +18,8 @@ def main():
             case '1':
                 jocs.janken()
             case '2':
-                jocs.endevina()            
+                jocs.nana()            
             case 'S':                
-                print("\n👋 Gràcies per jugar al Mini Arcade de Yahya!!👋")
-                break
-            case 's':
                 print("\n👋 Gràcies per jugar al Mini Arcade de Yahya!!👋")
                 break 
             case _: 
