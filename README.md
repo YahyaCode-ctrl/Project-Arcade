@@ -7,8 +7,8 @@ Aquest projecte implementa una petita màquina recreativa virtual utilitzant Pyt
 ## Característiques:
 
 * **Menú Principal Interactiu:** Un bucle principal que permet a l'usuari triar entre diferents jocs.
-* **Joc de Pedra, Paper, Tisora:** Permet jugar contra un competidor virtual (Robot) amb diferents modes de dificultat (al millor de 3 victòries o al millor de 5 rondes).
-* **Joc d'Endevinar el Número:** L'usuari ha d'endevinar un número aleatori amb l'ajuda de pistes ("massa alt" o "massa baix"), comptant el nombre d'intents.
+* **Joc de Pedra, Paper, Tisora(Janken):** Permet jugar contra un competidor virtual (Robot) amb diferents modes de dificultat (al millor de 3 victòries o al millor de 5 rondes).
+* **Joc d'Endevinar el Número(nana):** L'usuari ha d'endevinar un número aleatori amb l'ajuda de pistes ("massa alt" o "massa baix"), comptant el nombre d'intents.
 * **Estructura Modular:** El codi està dividit en mòduls lògics (`main.py`, `jocs.py`, `robot.py`) per millorar l'organització i el manteniment.
 
 ## Estructura del Projecte:
