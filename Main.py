@@ -5,8 +5,8 @@ def mostrar_menu():
     print("=============================================")
     print("🕹️ BENVINGUT/DA AL MINI ARCADE de Yahya 🕹️")
     print("=============================================")
-    print("1. Jugar a -Pedra✊, Paper🤚, Tisora✌️-")
-    print("2. Jugar a -Endevinar el Número-")
+    print("1. Jugar a -Pedra✊, Paper🤚, Tisora✌️(Janken)-")
+    print("2. Jugar a -Endevinar el Número(Nana)-")
     print("S. -Sortir🚪-")
     print("---------------------------------------------")
 
